@@ -8,6 +8,11 @@
         display: none;
     }
 }
+@media (width < 1024px){
+    .top_1440px, .top_gray, .bottom_gray{
+       display: none;
+    }
+}
 @media (width > 575px){
     .typemaster_right_side > .top_375px{
         margin-left: 200px;
@@ -18,7 +23,7 @@
         margin-left: 300px;
      }
 }
-@media (width > 768px){
+@media (width >= 768px){
     .heading_div{
         padding: 40px;
     }
@@ -26,6 +31,7 @@
        padding-left: 40px;
        flex-direction: row;
        align-items: center;
+       justify-content: space-between;
     }
     .typemaster_right_side > .top_375px{
         display: none;
@@ -53,7 +59,82 @@
         text-align: left;
      }
      .mechanical_keyboard_texts > p{
-        width: 398px;
         text-align: left;
      }
+     .four_icon_container{
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 140px;
+        gap: 72px;
+     }
+     .four_icon_container > div{
+        flex-direction: row;
+        gap: 69px;
+     }
+     .couple_icon_top > div{
+        align-items: start;
+        text-align: left;
+     }
+     .couple_icon_bottom > div{
+        align-items: start;
+        text-align: left;
+     }
+     .couple_icon_top > div > img{
+        margin-bottom: 16px;
+    }
+    .footer_container{
+        margin-top: 146px;
+    }
+}
+@media (width >= 1024px){
+    .heading_div{
+        padding-top: 40px;
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-bottom: 83px;
+        margin-bottom: 0;
+    }
+    .typemaster_container{
+        padding-left: 150px;
+    }
+    .top_768px{
+        display: none;
+    }
+    .top_gray{
+        margin-left: 20px;
+        align-self: flex-start;
+    }
+    .typemaster_left_side > p{
+        width: 420px;
+    }
+    .mechanical_keyboard_container{
+        margin-top: 20px;
+        padding-right: 150px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .mechanical_container_bitmaps{
+        padding: 0;
+        gap: 15px;
+    }
+    .bottom_gray{
+        align-self: flex-end;
+    }
+    .mechanical_keyboard_texts{
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        align-items: start;
+    }
+    .mechanical_keyboard_texts > p{
+        width: 255px;
+    }
+    .four_icon_container{
+        flex-direction: row;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .footer_container{
+        margin-top: 128px;
+    }
 }

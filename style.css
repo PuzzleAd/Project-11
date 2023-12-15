@@ -43,7 +43,6 @@
     gap: 30px;
 }
 .typemaster_left_side > h1{
-    width: 327px;
     color: #162542;
     font-family: Barlow;
     font-size: 48px;
@@ -53,7 +52,6 @@
     text-transform: uppercase;
 }
 .typemaster_left_side > p{
-    width: 327px;
     color: #7B8BAD;
     font-family: Barlow;
     font-size: 16px;
@@ -90,6 +88,9 @@
     line-height: 26px; /* 162.5% */
     text-transform: uppercase;
 }
+.typemaster_right_side{
+    display: flex;
+}
 .typemaster_right_side > img{
     width: auto;
     border-top-left-radius: 20px;
@@ -117,6 +118,9 @@
 .left_768px, .right_768px{
     border-radius: 20px;
 }
+.top_1440px{
+    border-radius: 20px;
+}
 .mechanical_keyboard_texts{
     padding-left: 20px;
     padding-right: 20px;
@@ -128,7 +132,6 @@
 }
 .mechanical_keyboard_texts > h1{
     width: 255px;
-    width: 255px;;
     color: #162542;
     text-align: center;
     font-family: Barlow;
@@ -154,19 +157,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 64px;
 }
 .four_icon_container > div{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.couple_icon_top > div{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 24px;
 }
-.four_icon_container > div > img{
+.couple_icon_bottom > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+.couple_icon_top > div > img{
     margin-bottom: 24px;
 }
-.four_icon_container > div > h1{
+.couple_icon_top > div > h1{
     color: #162542;
     font-family: Barlow;
     font-size: 24px;
@@ -175,7 +191,27 @@
     line-height: 28px; /* 116.667% */
     text-transform: uppercase;
 }
-.four_icon_container > div > p{
+.couple_icon_top > div > p{
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+}
+.couple_icon_bottom > div > img{
+    margin-bottom: 24px;
+}
+.couple_icon_bottom > div > h1{
+    color: #162542;
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px; /* 116.667% */
+    text-transform: uppercase;
+}
+.couple_icon_bottom > div > p{
     color: #7B8BAD;
     font-family: Barlow;
     font-size: 16px;
