@@ -133,6 +133,7 @@
         flex-direction: row;
         padding-left: 150px;
         padding-right: 150px;
+        justify-content: space-between;
     }
     .footer_container{
         margin-top: 128px;
