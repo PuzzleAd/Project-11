@@ -69,7 +69,7 @@
      }
      .four_icon_container > div{
         flex-direction: row;
-        gap: 69px;
+        justify-content: space-between;
      }
      .couple_icon_top > div{
         align-items: start;
