@@ -1,0 +1,53 @@
+@media (width > 475px){
+    .typemaster_right_side > .top_375px{
+       margin-left: 100px;
+    }
+}
+@media (width < 768px){
+    .top_768px, .left_768px, .right_768px{
+        display: none;
+    }
+}
+@media (width > 575px){
+    .typemaster_right_side > .top_375px{
+        margin-left: 200px;
+     }
+}
+@media (width > 675px){
+    .typemaster_right_side > .top_375px{
+        margin-left: 300px;
+     }
+}
+@media (width > 768px){
+    .heading_div{
+        padding: 40px;
+    }
+    .typemaster_container{
+       padding-left: 40px;
+       flex-direction: row;
+       align-items: center;
+    }
+    .typemaster_right_side > .top_375px{
+        display: none;
+     }
+     .mechanical_container_bitmaps > .left_bitmap, .right_bitmap{
+        display: none;
+     }
+     .mechanical_container_bitmaps{
+        padding-left: 40px;
+        padding-right: 40px;
+     }
+     .mechanical_keyboard_texts{
+        padding-left: 40px;
+        padding-right: 40px;
+        flex-direction: row;
+        justify-content: space-between;
+     }
+     .mechanical_keyboard_texts > h1{
+        text-align: left;
+     }
+     .mechanical_keyboard_texts > p{
+        width: 398px;
+        text-align: left;
+     }
+}
