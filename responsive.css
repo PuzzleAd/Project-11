@@ -33,6 +33,12 @@
      .mechanical_container_bitmaps > .left_bitmap, .right_bitmap{
         display: none;
      }
+     .typemaster_left_side > h1{
+        width: 339px;
+     }
+     .typemaster_left_side > p{
+        width: 339px;
+     }
      .mechanical_container_bitmaps{
         padding-left: 40px;
         padding-right: 40px;

@@ -43,6 +43,7 @@
     gap: 30px;
 }
 .typemaster_left_side > h1{
+    width: 327px;
     color: #162542;
     font-family: Barlow;
     font-size: 48px;
@@ -52,6 +53,7 @@
     text-transform: uppercase;
 }
 .typemaster_left_side > p{
+    width: 327px;
     color: #7B8BAD;
     font-family: Barlow;
     font-size: 16px;
